@@ -44,7 +44,10 @@ let content = `# Rapport de Projet : Blog des Lauréats
 // Concaténer chaque chapitre
 files.forEach((file, index) => {
   const filePath = path.join(chapitresDir, file);
-  const chapterContent = fs.readFileSync(filePath, 'utf-8').trim();
+  let chapterContent = fs.readFileSync(filePath, 'utf-8').trim();
+  // Les chapitres sont lus depuis rapport/chapitres/ ; le rapport consolide
+  // se trouve directement dans rapport/ et les chemins d'images doivent donc etre adaptes.
+  chapterContent = chapterContent.replace(/\(\.\.\/assets\//g, '(./assets/');
   content += chapterContent + '\n\n';
   if (index < files.length - 1) {
     content += '---\n\n';
