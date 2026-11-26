@@ -17,9 +17,9 @@ style: |
 ---
 
 # Understanding Agile & the Scrum Framework
-## Applied to: **Blog laureats**
+## Applied to: **Fashion & Apparel Store**
 
-Scrum Initiation Workshop 
+Scrum Initiation Workshop
 
 ---
 
@@ -28,8 +28,8 @@ Scrum Initiation Workshop
 | Waterfall / V-Model | Agile Approach (Iterative) |
 | :--- | :--- |
 | Single delivery at the end of the project | Frequent deliveries via **Sprints** |
-| Tunnel effect (no early user feedback) | Continuous user feedback |
-| Rigid and costly to change | Rapid adaptation to evolving needs |
+| Tunnel effect (no early user feedback) | Continuous customer feedback |
+| Rigid and costly to change | Rapid adaptation to seasonal fashion trends |
 | Late bug and usability detection | Continuous testing at every iteration |
 
 ---
@@ -49,11 +49,11 @@ Scrum Initiation Workshop
 
 ---
 
-# 3. The 3 Scrum Roles on **Blog laureats**
+# 3. The 3 Scrum Roles on **Fashion & Apparel Store**
 
 - **Product Owner (PO)**
   - Defines product vision and prioritizes the *Product Backlog*.
-  - *Example: Prioritizing article reading before admin moderation.*
+  - *Example: Prioritizing clothing catalog browsing before inventory management.*
 - **Scrum Master (SM)**
   - Upholds Scrum practices and removes team blockers.
 - **Developers**
@@ -71,15 +71,15 @@ Scrum Initiation Workshop
 
 ---
 
-# 5. Concrete Example: Sprint 1 on **Blog laureats**
+# 5. Concrete Example: Sprint 1 on **Fashion & Apparel Store**
 
 - **Sprint Goal:**
-  Enable students to browse the list of published articles and read a full article.
+  Enable shoppers to browse the clothing catalog and view full item details.
 - **Delivered Increment:**
-  - Article feed showing title, category, and laureat author.
-  - Full article detail view.
+  - Apparel catalog showing clothing items, designer, and season/style.
+  - Full clothing item detail view.
 - **Definition of Done (DoD):**
-  - Eloquent models (`Laureat`, `Article`, `Categorie`) + Seeders working.
+  - Eloquent models (`Designer`, `ClothingItem`, `SeasonStyle`) + Seeders working.
   - Responsive layout (Tailwind CSS + Preline UI).
   - Automated PHPUnit / Pest tests passing.
 
@@ -89,4 +89,4 @@ Scrum Initiation Workshop
 
 - Scrum replaces the tunnel effect with **incremental value delivery**.
 - Every Sprint produces a **working, tested, and demonstrable increment**.
-- On **Blog laureats**, Scrum secures both web and mobile development step by step.
+- On **Fashion & Apparel Store**, Scrum secures both web and mobile development step by step.
